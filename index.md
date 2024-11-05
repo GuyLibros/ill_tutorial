@@ -1,6 +1,12 @@
 ---
 layout: default
 title: Interlibrary Loan Tutorial
+
+<!-- In the <head> section -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shepherd.js@13.0.0/dist/css/shepherd.css" />
+<!-- Before the closing </body> tag -->
+<script src="https://cdn.jsdelivr.net/npm/shepherd.js@13.0.0/dist/js/shepherd.min.js"></script>
+
 ---
 
 # Welcome to the Interlibrary Loan (ILL) Tutorial
