@@ -86,6 +86,9 @@ If you have questions or need help, feel free to [contact us](mailto:library.sup
 ---
 
 Thank you for exploring the interlibrary loan process with us. We hope this tutorial helps you make the most of this valuable service!
+<div class="screenshot">
+  <img src="your-screenshot.png" alt="Screenshot" style="width: 100%; position: relative;">
+  <div class="step1-element" style="position: absolute; top: 20%; left: 30%;">Step 1 Target Area</div>
+  <div class="step2-element" style="position: absolute; top: 50%; left: 60%;">Step 2 Target Area</div>
+</div>
 
- <div class="step1-element">Step 1 Target Area</div>
-<div class="step2-element">Step 2 Target Area</div>
