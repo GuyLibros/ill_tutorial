@@ -87,3 +87,5 @@ If you have questions or need help, feel free to [contact us](mailto:library.sup
 
 Thank you for exploring the interlibrary loan process with us. We hope this tutorial helps you make the most of this valuable service!
 
+ <div class="step1-element">Step 1 Target Area</div>
+<div class="step2-element">Step 2 Target Area</div>
