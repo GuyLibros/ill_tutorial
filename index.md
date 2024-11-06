@@ -87,4 +87,56 @@ If you have questions or need help, feel free to [contact us](mailto:library.sup
 
 Thank you for exploring the interlibrary loan process with us. We hope this tutorial helps you make the most of this valuable service!
 
+<script src="https://unpkg.com/shepherd.js@latest/dist/js/shepherd.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const tour = new Shepherd.Tour({
+      defaultStepOptions: {
+        scrollTo: true,
+        classes: 'shepherd-theme-arrows',
+        cancelIcon: {
+          enabled: true
+        },
+      }
+    });
+
+    tour.addStep({
+      title: 'Step 1',
+      text: 'This is the first target area.',
+      attachTo: {
+        element: '.step1-element',
+        on: 'bottom'
+      },
+      buttons: [
+        {
+          text: 'Next',
+          action: tour.next
+        }
+      ]
+    });
+
+    tour.addStep({
+      title: 'Step 2',
+      text: 'This is the second target area.',
+      attachTo: {
+        element: '.step2-element',
+        on: 'bottom'
+      },
+      buttons: [
+        {
+          text: 'Back',
+          action: tour.back
+        },
+        {
+          text: 'Finish',
+          action: tour.complete
+        }
+      ]
+    });
+
+    // Start the tour when the page loads or based on an action
+    tour.start();
+  });
+</script>
+
 
